@@ -2632,30 +2632,28 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@sendgrid/client@^6.4.0":
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/@sendgrid/client/-/client-6.5.3.tgz#9abbfe2038dd54f8a9a4bffa7da5c1579e299118"
-  integrity sha512-+K4yTMSNChfwKuuMGpnK1Xz7SnBoh3VDT8sILVwSMJRH3s18mOf5Bv/xbAxawqX4Wz50rlSrpbA5A3FwiSDzJA==
+"@sendgrid/client@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@sendgrid/client/-/client-7.4.0.tgz#07c26936f88ade43fb845ce00b37d882999c0a04"
+  integrity sha512-KAZlEb1P8sATgBN+7hXgzaRF94nF9KQgDxQ6zUT1BV0kEsNtJQ2cs35sCtWt6AKKJrL0xPI/MsfcAJqom4YQBg==
   dependencies:
-    "@sendgrid/helpers" "^6.5.3"
-    "@types/request" "^2.48.4"
-    request "^2.88.0"
+    "@sendgrid/helpers" "^7.4.0"
+    axios "^0.19.2"
 
-"@sendgrid/helpers@^6.4.0", "@sendgrid/helpers@^6.5.3":
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/@sendgrid/helpers/-/helpers-6.5.3.tgz#60545e077857fa13e5fd295b1b03a5ed9a45f9e3"
-  integrity sha512-Cr5lV8H8STg8bzdzU5pEctI/SDQ3TCLiq72Ao2r3tGyusIxJ00C7CrXddhjEdYBsHvJZLaBTfG04yp8303em6w==
+"@sendgrid/helpers@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@sendgrid/helpers/-/helpers-7.4.0.tgz#be98730c89c190c8873e2f25d868a13d26b75b25"
+  integrity sha512-IQI2vemiJB0+X6bEp4HRG+0/wrzR2RDGnB5rwfq1CsPDrUFdJfxbE2zbGx//1GnlNwAtbHyc93ejU1m0KZr86w==
   dependencies:
-    chalk "^2.0.1"
     deepmerge "^4.2.2"
 
-"@sendgrid/mail@6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@sendgrid/mail/-/mail-6.4.0.tgz#21d022f7fae57dcdc5910eeca5ed318df21e5f51"
-  integrity sha512-pVzbqbxhZ4FUN6iSIksRLtyXRPurrcee1i0noPDStDCLlHVwUR+TofeeKIFWGpIvbbk5UR6S6iV/U5ie8Kdblw==
+"@sendgrid/mail@7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@sendgrid/mail/-/mail-7.4.0.tgz#126de0f0fc7c62d5d609140261fd598b6291fee3"
+  integrity sha512-SAARsfbl50OEJ99LYGKfgrYiV5O6+23aeGJuEBTHHSwRZ6KhD3n1BjPeIejbqgbqYLZJfNLxyU3o5xRdJPp3zg==
   dependencies:
-    "@sendgrid/client" "^6.4.0"
-    "@sendgrid/helpers" "^6.4.0"
+    "@sendgrid/client" "^7.4.0"
+    "@sendgrid/helpers" "^7.4.0"
 
 "@sentry/apm@5.13.2":
   version "5.13.2"
@@ -3286,7 +3284,7 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/request@^2.48.1", "@types/request@^2.48.4":
+"@types/request@^2.48.1":
   version "2.48.4"
   resolved "https://registry.yarnpkg.com/@types/request/-/request-2.48.4.tgz#df3d43d7b9ed3550feaa1286c6eabf0738e6cf7e"
   integrity sha512-W1t1MTKYR8PxICH+A4HgEIPuAC3sbljoEVfyZbeFJJDbr30guDspJri2XOaM2E+Un7ZjrihaDi7cf6fPa2tbgw==
