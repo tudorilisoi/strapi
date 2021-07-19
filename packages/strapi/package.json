@@ -27,7 +27,7 @@
     "execa": "^1.0.0",
     "fs-extra": "^7.0.0",
     "glob": "^7.1.2",
-    "inquirer": "^6.2.1",
+    "inquirer": "^8.1.2",
     "is-docker": "2.0.0",
     "koa": "^2.8.0",
     "koa-body": "^4.1.0",
