@@ -17,7 +17,7 @@
     "chalk": "^2.4.2",
     "execa": "^1.0.0",
     "fs-extra": "^8.0.1",
-    "inquirer": "^6.3.1",
+    "inquirer": "^8.2.4",
     "lodash": "4.17.19",
     "node-fetch": "^1.7.3",
     "node-machine-id": "^1.1.10",
